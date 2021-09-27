@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+    color: rgb(59 80 108);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(59 80 108); 
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: capitalize;
+    /* color: forestgreen; */
+}
+
+/*.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+    color: rgb(12 102 255);
+}*/
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: rgb(12 102 255);
+}
+
+.dropdown-menu {
+    background-color: #465974a8;
+}
+.dropdown-item {
+    color: #ffffffc4;
+    
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #ffffff;
+    background-color: #e9ecef00;
+}
+.banner img{
+	    height: 600px ;
+    width: 100%;
+    object-fit: cover;
+}
+.card img{
+	    max-width: 100%;
+    height: 250px;
+    width: 415px;
+    display: block;
+}
+h5{
+    color: #ffffffa6;
+    text-transform: capitalize;
+    letter-spacing: -1px;
+    font-size: 25px ;
+
+}
+p{
+  color: #ffffffab;
+}
+
+
+
+@media (max-width: 575px){
+.banner img {
+    height: auto !important;
+    width: 100%;
+    object-fit: cover;
+}
+}
+
+@media (max-width: 767px ){
+.banner img {
+    height: 525px;
+    width: 100%;
+    object-fit: cover;
+}
+}
